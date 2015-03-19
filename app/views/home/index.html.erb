@@ -1,0 +1,19 @@
+<h1> Welcome!!!!!!!</h1>
+<table>
+	<tr>
+		<td>Name</td>
+		<td>Email</td>
+	</tr>
+	<% @users.each do|user| %>
+		<tr>
+			<td>
+				<%= user.name%>
+				
+			</td>
+			<td>
+				<%= user.email%>
+			</td>
+		</tr>
+	<%end%>
+
+</table>
